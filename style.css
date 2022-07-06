@@ -24,14 +24,15 @@ color: whitesmoke;}
 color: white;}
 
 .button{text-decoration: none;
-    background-image: linear-gradient(salmon ,tomato); 
+    /* background-image: linear-gradient(salmon ,tomato);  */
     
+    background: salmon;
     padding: 10px ;
     border-radius: 5px;
     color: whitesmoke;
     margin-top: 80px;
-    font-size: 30px;
-    font-weight: 700;}
+    font-size: 20px;
+    font-weight: 600;}
 
 
 .donate-today-2nd{text-align: center;
@@ -61,7 +62,8 @@ color: grey;
 
 }
 
-.border-around{ border:2px solid salmon;}
+.border-around{ border:2px solid salmon;
+border-radius: 5px;}
 .salmon-color{color: salmon;}
 
 .Other-Amount{
@@ -83,9 +85,33 @@ color: grey;
         padding: 15px;
         background: salmon;
         color: whitesmoke;
-        font-size: 18px;
+        font-size: 20px;
         border: 0;
         width: 150px;
         margin-left:40%;
         border-radius: 5px;
     }
+
+    .donate-plan{text-align: center;
+        padding-top: 50px;
+    margin-right:10% ;
+padding-bottom: 20px;}
+    
+.cards{
+    
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 15px;
+    
+    }
+    .cards-area{
+    padding-top: 100px;
+        display: flex;
+    }
+
+    .frame-color{
+        background-color: antiquewhite;
+    }
+    

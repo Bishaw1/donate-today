@@ -9,6 +9,7 @@ body{font-family: 'Lato', sans-serif;
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/donation13.jpg);
     background-size: cover;
+    margin-bottom: 100px;
 }
 .content-area{height: 100%;
 display: flex;
@@ -23,7 +24,7 @@ color: whitesmoke;}
 color: white;}
 
 .button{text-decoration: none;
-    background-image: linear-gradient(rgb(219, 184, 120) ,tomato); 
+    background-image: linear-gradient(salmon ,tomato); 
     
     padding: 10px ;
     border-radius: 5px;
@@ -31,3 +32,60 @@ color: white;}
     margin-top: 80px;
     font-size: 30px;
     font-weight: 700;}
+
+
+.donate-today-2nd{text-align: center;
+        padding-bottom: 70px;}
+        
+.donate-today-2nd-des{
+        padding-left: 10%;
+        padding-right: 10%;
+        }
+
+.donate-amount{
+    text-align: center;
+    display: flex;
+    
+    
+}
+.tk-ammount{
+    
+display: flex;
+margin-left: 2%;
+margin-right: 2%;
+width:  16%;
+padding-left: 5%;
+padding-right: 5%;
+font-weight: 700;
+color: grey;
+
+}
+
+.border-around{ border:2px solid salmon;}
+.salmon-color{color: salmon;}
+
+.Other-Amount{
+    font-weight: 200;
+    color: grey;
+    padding-top: 70px;
+    text-align: center;}
+
+    .section-part{
+        width: 80%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 20px;
+        border-radius: 15px;
+        
+    
+    }
+    .button-2{
+        padding: 15px;
+        background: salmon;
+        color: whitesmoke;
+        font-size: 18px;
+        border: 0;
+        width: 150px;
+        margin-left:40%;
+        border-radius: 5px;
+    }
